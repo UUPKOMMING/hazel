@@ -1,0 +1,25 @@
+@import '~material-design-icons/iconfont/material-icons.css';
+
+Nav{
+    background-image: url(./img/pic3.jpg);
+    background-size: cover;
+    background-position:center;
+    min-height: 100vh;
+}
+.section{
+    padding: 4vh;
+    padding-bottom: 4vh;
+    background: #e1d4d41f;
+}
+.tabs .indicator{
+    background-color: indigo ;
+
+
+}
+.tabs .tab a:focus, .tabs .tab a:focus.active{
+   background: transparent;
+    }
+
+    [type="checkbox"]:checked+span:not(.lever):before{
+    color: indigo;
+    }
